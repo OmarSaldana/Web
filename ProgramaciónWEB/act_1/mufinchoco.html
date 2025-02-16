@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muffin</title>
+</head>
+<body>
+    <header>
+        <h1><strong>Cafetería</strong> (¡Mi prmera chamba!)</h1>
+        <h2>Muffin de chocolate</h2>
+        <hr>
+        <h3><a href="index.html">Inicio</a> / Postres</h3>
+        <hr>
+        <h4>Imagen:</h4>
+        <img src="imagenes_act_1/muffin_img.png" alt="Muffin de chocolate" width="400" height= auto>
+        <h4>Descripción:</h4>
+        <p>El muffin de chocolate es un delicioso panecillo individual, esponjoso y 
+            rico en sabor a chocolate. Ideal para el desayuno, la merienda o como un 
+            dulce acompañamiento a cualquier hora del día. Su textura suave y su 
+            intenso sabor a chocolate lo convierten en una opción irresistible para 
+            los amantes del chocolate.</p>
+        <form>
+            <label><strong>Sabores:</strong></label><br>
+            <label for="clasico">Clásico</label>
+            <input type="radio" name="sabores" id="sabores" value="Clásico">
+            <label for="chispas">Con chipas</label>
+            <input type="radio" name="sabores" id="sabores" value="Chispas">
+            <label for="nueces">Con nueces</label>
+            <input type="radio" name="sabores" id="sabores" value="Nueces">
+            <label for="relleno">Relleno de chocolate</label>
+            <input type="radio" name="sabores" id="sabores" value="Relleno">
+            <label for="frutas">Con frutas</label>
+            <input type="radio" name="sabores" id="sabores" value="Frutas">
+            <br>
+            <br>
+            <label for="tamaño_precio"><strong>Tamaños y precio</strong></label>
+            <select name="tamaño_precio" id="tamaño_precio">
+                <option value="1">Chico (100g) $30 MXN</option>
+                <option value="1">Mediano (150g) $45 MXN</option>
+                <option value="1">Grande (200g) $60 MXN</option>
+            </select>
+            <hr>
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+</html>
