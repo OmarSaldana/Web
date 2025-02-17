@@ -1,0 +1,31 @@
+body{ /* afecta todo lo que tenga adentro*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{ /* orden alfabético */
+    color:crimson;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.mi-clase{ /*Se pueden reutilizar*/
+    font-size: 10px;
+    color: darkgoldenrod;
+}
+
+.mi-clase a{ /* afecta a las "a" dentro de mi-clase*/
+    font-size: 20px;
+    color: aqua;
+}
+
+#mi-id{ /*Es único, no se puede replicar*/
+    font-size: 55px;
+    color: darkgreen;
+}
