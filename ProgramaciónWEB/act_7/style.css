@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.color-rojo{
+    color:brown;
+    font-weight: bold;
+}
+
+.color-negro{
+    color: black;
+    font-weight: bold;
+}
+
+.color-gris{
+    color: gray;
+    font-weight: bold;
+}
+
+.imagen-subrayada{
+    display: inline-block;
+    border-bottom: 3px solid red;
+}
+
+.color-gris-cursiva{
+    color: gray;
+    font-style: italic;
+}
+
+.texto-subrayado{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.texto-negritas{
+    font-weight: bold;
+}
