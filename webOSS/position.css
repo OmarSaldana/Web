@@ -1,0 +1,55 @@
+div{ /*Englobar todos los div*/
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+}
+.green{
+    background-color: green;
+    /*position: relative; /*que referencias va a tomar (green)
+    
+    height: 200px;
+    width: 100%;*/
+}
+
+.blue{
+    background-color: royalblue;
+}
+
+.red{
+    background-color: crimson;
+    /*
+    position: absolute;
+    text-align: center;
+    */
+    /*
+    left: 50px;
+    z-index: 1;
+    */
+    /*
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    */
+    /* top: 0; */
+    /*
+    position: relative; /*darle atribuciones para poder moverse
+    top: -200px;
+    left: 100px;
+    */
+}
+
+.yellow{
+    background-color: gold;
+    position: sticky;
+    top: 0;
+
+    /*
+    position: fixed;
+    top: 0;
+    width: 100%;
+    */
+    /*
+    position: relative;
+    z-index: 5;
+    */
+}

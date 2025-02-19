@@ -1,0 +1,59 @@
+/*Propiedad: Pseudo elementos*/
+a:link{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:focus{
+    border: solid 10px blue;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    border: none;
+    color: orange;
+}
+
+a:visited{
+    color: black;
+}
+
+/*Propiedad: position*/
+
+
+/*
+    *{ /*todo lo que hay en la web
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+/*
+    p{ /*global*/
+        /* color: blue; */
+        /* padding: 50px; 
+    }
+*/
+/*
+    section p{ /*global dentro de section*/
+        /* color: red; */
+        /* color: red !important; Darle prioridad a lo demás 
+    }
+*/
+/*
+    section > p{ /* El que está directo (primero) 
+        color: green;
+    }
+*/
+    /*input[type="submit"]{
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 20px 50px 20px 50px; /*arriba, derecha, abajo, izquierda*/
+        /* padding: 20px 50px; 
+        margin-top: 50px;
+    }*/
