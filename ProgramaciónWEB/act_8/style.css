@@ -1,0 +1,74 @@
+.wall{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: beige;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.window01{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border-radius: 20%;
+    top: 25%;
+    left: 10%;
+}
+.window02{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border-radius: 20%;
+    top: 25%;
+    right: 10%;
+}
+.door{
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    background-color: brown;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 30px 30px 0 0;
+    border-style: groove;
+}
+.decor{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    bottom: 0%;
+    z-index: -1;
+}
+.roof{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 0;
+    border-right: 150px solid transparent;
+    border-bottom: 160px solid brown;
+    border-left: 150px solid transparent;
+    top: -160px;
+}
+.chimney{
+    position: relative;
+    width: 60px;
+    height: 80px;
+    background-color: rgb(73, 34, 5);
+    left: 50px;
+    top: -110px;
+}
+.grass{
+    position: absolute;
+    width: 150%;
+    height: 10px;
+    background-color: green;
+    bottom: 0%;
+    border-radius: 10px;
+    right: -75px;
+}
+
