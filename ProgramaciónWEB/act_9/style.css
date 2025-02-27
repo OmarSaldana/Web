@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    padding: 0;
+    font-size: 20px;
+}
+.rojo{
+    background-color: #d11f2d;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.naranja{
+    background-color: #f5a61f;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.azulB{
+    background-color: #9bbfe2;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.azulF{
+    background-color: #2696d2;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.verde{
+    background-color: #9ec87c;
+    color: black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+.rosa{
+    background-color: #f5b2ca;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.amarillo{
+    background-color: #fdce0b;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.morado{
+    background-color:#b895c5;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.gris{
+    background-color: #c3c3c3;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.verdeB{
+    background-color: #76c8a9;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.subtema{
+    font-size: 12px;
+}
+.numero{
+    font-size: xx-small;
+    text-align: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+
+}
+.seleccionar{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+}
+.seleccionar:hover{
+    background-color: deepskyblue;
+}
