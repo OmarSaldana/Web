@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    padding: 5px;
+}
+.rojo{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.naranja{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.azulB{
+    background-color: cornflowerblue;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.azulF{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.verde{
+    background-color: darkseagreen;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.rosa{
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.amarillo{
+    background-color: gold;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.morado{
+    background-color:darkorchid;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.gris{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.verdeB{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+}
+.subtema{
+    font-size: 12px;
+}
+.numero{
+    font-size: 12px;
+    
+}

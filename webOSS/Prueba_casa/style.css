@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.general{
+    width: 900px;
+    height: 800px;
+    background-color: red;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+.ofertas{
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    position: absolute;
+    right: 0px;
+}
+.novedades{
+    width: 640px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+}
+.info{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 20px
+}
+.info2{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
