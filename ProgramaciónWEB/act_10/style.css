@@ -1,0 +1,138 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    font-size: 25px;
+}
+.busqueda{
+    padding: 5px;
+    font-size: 15px;
+}
+.menu ul{
+    background-color: #db5b69;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+.noticias{
+    background-color: #f1f1f1;
+    padding: 1%;
+    border-style:groove;
+    border-color: #eeeeee;
+    float: left;
+}
+.letrasAzul{
+    color: #45696c;
+}
+.letrasGris{
+    color: #c4c4c4;
+    font-style: normal;
+    
+}
+hr {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.noticias h4 {
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+.noticias h3 {
+    margin-top: 2px;
+    font-size: 15px;
+}
+img{
+    height: 200px;
+    
+}
+.principal{
+    width: 61%;
+    margin-top: 10px;
+    float: left;
+    padding: 1%;
+    margin-right: 2%;
+}
+.contenido{
+    display: flex;
+    gap: 20px;
+}
+.columnaD{
+    margin-top: 10px;
+    padding: 1%;
+    border-style:groove;
+    border-color: #1bc1d0;
+    width: 15%;
+    float: right;
+}
+.columnaD h3{
+    background-color: #1bc1d0;
+    height: 20px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.publicidad{
+    background-color: #fcefd7;
+    padding: 1%;
+    border-style: dashed;
+    border-color: #fbc974;
+    margin-top: 2%;
+}
+.naranja1{
+    color: #fbb53f;
+}
+.naranja2{
+    color: #d8a959;
+    font-weight: bold;
+}
+.contenedor-noticias {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 10px;
+    float: left;
+    margin-right: 2%;
+}
+.pie{
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 2%;
+    clear: both;
+    margin-top: 20px;
+    position: relative;
+}
+.pie p{
+    background-color: #d1d1d1;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+.pie h4{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.contenedor-noticias{
+    display: flex;
+    flex-wrap: wrap;
+}
