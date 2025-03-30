@@ -1,0 +1,59 @@
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    outline: 4px solid #6c7178;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(15, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #01272c;
+    grid-column: 1/16;
+    grid-row: 1/16;
+}
+h1{
+    text-align: center;
+}
+.numero1{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    color: white;
+    font-size: 30px;
+}
+.pantalla1{
+    background-color: #adbe8b;
+    grid-column: 5/8;
+    grid-row: 2/3;
+    outline: 2px solid black;
+}
+.numero2{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    color: white;
+    font-size: 30px;
+}
+.pantalla2{
+    background-color: #adbe8b;
+    grid-column: 5/8;
+    grid-row: 3/4;
+    outline: 2px solid black;
+}
+.operaciones{
+    background-color: #82888d;
+    grid-column: 2/8;
+    grid-row: 5/9;
+    font-size: 27px;
+}
+.calcular{
+    background-color: #ec641c;
+    grid-column: 2/8;
+    grid-row: 10/11;
+    font-size: 30px;
+}
+.pantalla3{
+    background-color: #adbe8b;
+    grid-column: 5/8;
+    grid-row: 12/13;
+    outline: 2px solid black;
+}

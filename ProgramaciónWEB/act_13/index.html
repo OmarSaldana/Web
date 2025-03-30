@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calculadora Básica</h1>
+        <form action="calculadora.php" method="POST">
+        <div class="container">
+            <label class="numero1" for="num1">Número 1: </label>
+            <input type="text" id="num1" name="num1" class="pantalla1" required>
+            <label class="numero2" for="num2">Número 2: </label>
+            <input type="text" id="num2" name="num2" class="pantalla2" required>
+
+            <div class="operaciones">
+                <input type="radio" name="operacion" value="sumar" id="sumar" required>
+                <label for="sumar">Suma</label><br>
+                <input type="radio" name="operacion" value="restar" id="restar" required>
+                <label for="restar">Resta</label><br>
+                <input type="radio" name="operacion" value="multiplicar" id="multiplicar" required>
+                <label for="multiplicar">Multiplicación</label><br>
+                <input type="radio" name="operacion" value="dividir" id="dividir" required>
+                <label for="dividir">División</label>
+            </div>
+
+            <button class="calcular" type="submit">Calcular</button>
+        </div>
+        </form>
+    </body>
+</html>
