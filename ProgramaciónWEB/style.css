@@ -1,0 +1,18 @@
+.carousel-item{
+    max-height: 420px;
+}
+.contenedor_1{
+    background-color: rgb(209, 239, 248);
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+}
+.contenedor_2{
+    margin-top: 20px;
+    padding: 50px;
+    max-height: 200px;
+}
+.contenedor_3{
+    margin-top: 20px;
+    padding: 70px;
+}
