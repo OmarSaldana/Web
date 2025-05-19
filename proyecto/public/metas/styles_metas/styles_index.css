@@ -1,0 +1,22 @@
+.custom-header { background-color: #4ECDC4; margin-bottom: 2rem; }
+.back-arrow {
+  color: #4ECDC4;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease;
+  margin-right: 1rem;
+}
+.back-arrow:hover {
+  transform: translateX(-5px);
+}
+html, body {
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1;
+}

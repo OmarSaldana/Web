@@ -1,0 +1,19 @@
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #4ECDC4;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.back-arrow:hover {
+    transform: translateX(-5px);
+}
+.logo-container {
+    position: relative;
+}
+@media (max-width: 768px) {
+    .column.is-two-fifths {
+        width: 100% !important;
+    }
+}
