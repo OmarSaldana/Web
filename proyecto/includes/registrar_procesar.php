@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         try {
             $stmt->execute([$nombre, $a_paterno, $a_materno, $correo, $passwordHash]);
             // Redirigir al login
-            header("Location: ../public/login.php");
+            header("Location: ../publico/login.php");
             exit;
         } catch (PDOException $e) {
             // Si ocurre un error al insertar
